@@ -23,6 +23,7 @@ namespace ORM_Dapper
         {
             return _connection.Query<Product>("SELECT * FROM Products;");
         }
+
     }
 }
 
